@@ -6,11 +6,10 @@
   import cp from "$lib/assets/img/cp.webp"
 
   const title = "About Me"
-  const description = `Get to know my family a little bit better.`;
 </script>
 
 <div>
-  <Header {title} {description}></Header>
+  <Header {title}></Header>
 
   <div class="flex flex-col space-y-16 mt-8">
 
@@ -48,8 +47,8 @@
         <div class="px-4">
           <h1 class="text-5xl font-bold">Virigina</h1>
           <p class="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-            quasi. In deleniti eaque aut repudiandae et a id nisi.
+            Our toddler who always keeps up on our toes. 
+            She loves basketballs, cars, and Bluey. 
           </p>
         </div>
       </div>
@@ -60,8 +59,8 @@
         <div class="px-4">
           <h1 class="text-5xl font-bold">Coco & Pepper</h1>
           <p class="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-            quasi. In deleniti eaque aut repudiandae et a id nisi.
+            Our two puppies. Coco is a chocolate lab, and Pepper is a black lab mix.
+            They both love getting scratches.
           </p>
         </div>
         <img src={cp} alt="Coco and Pepper" class="rounded-lg shadow-2xl"/>

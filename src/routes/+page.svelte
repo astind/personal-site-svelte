@@ -81,7 +81,7 @@
 						</svg>
 						
 					</div>
-					<div class="timeline-end timeline-box">JD Connel Construction</div>
+					<div class="timeline-end timeline-box">JD Connell Construction</div>
 					<hr class="bg-primary"/>
 				</li>
 				<li>

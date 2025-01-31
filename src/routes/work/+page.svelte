@@ -7,8 +7,10 @@
 
 <div class="flex justify-between">
   <Header {title}></Header>
-  <button class="btn btn-neutral">Download CV</button>
+  <button class="btn btn-neutral">Download</button>
 </div>
+
+<div class="divider mt-0"></div>
 
 <div class="mt-8">
 
@@ -17,12 +19,35 @@
   </h2>
   <div class="divider"></div>
 
-  <h2 class="text-3xl font-semibold">
+  <div class="w-full px-4">
+    <ul class="space-y-4">
+      <li>
+        <div class="flex justify-between">
+          <div class="flex flex-col">
+            <h3 class="text-xl font-semibold">Master of Science (M.S.), Computer Science</h3>
+            <p class="text-lg italic mt-2">Arizona State University</p>
+          </div>
+          <div class="text-lg font-semibold">Aug 2020 - Dec 2023</div>
+        </div>
+      </li>
+      <li >
+        <div class="flex justify-between">
+          <div class="flex flex-col">
+            <h3 class="text-xl font-semibold">Bachelor of Science (B.S.), Computer Science</h3>
+            <p class="text-lg italic mt-2">Brigham Young University</p>
+          </div>
+          <div class="text-lg font-semibold">Aug 2012 - Dec 2018</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <h2 class="text-3xl font-semibold mt-8">
     Work History
   </h2>
   <div class="divider"></div>
 
-  <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+  <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical px-4">
     <li>
       <div class="timeline-middle">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 text-primary">
@@ -43,9 +68,12 @@
         I worked the summers and saved enough to cover my college semesters.
 
         I learned a lot of professional skills, but also learned that I didn't want to work construction for a living.
-        <ul>
-          <li>Leadership: Supervised peers with less experience</li>
-        </ul>
+        <div class="flex flex-col items-center justify-center pl-4 lg:pl-8 pr-4 mt-2">
+          <h4 class="font-bold">Skills Learned:</h4>
+          <ul class="list-disc text-left">
+            <li>Leadership: Supervised peers with less experience</li> 
+          </ul>
+        </div>
       </div>
       <hr class="bg-primary" />
     </li>
@@ -59,9 +87,18 @@
       <div class="timeline-end md:mb-10">
         <time class="font-mono italic">May 2017</time>
         <div class="text-lg font-black">Altamira Technologies</div>
-        iMac is a family of all-in-one Mac desktop computers designed and built by Apple Inc. It has
-        been the primary part of Apple's consumer desktop offerings since its debut in August 1998,
-        and has evolved through seven distinct forms
+        I interned at Altamira the summer before my Senior year of college. They offered me a full time position after graduation. 
+        I recieved a Top-Secret Security Clearance (TS/SCI) and worked on 
+        projects for the USAF at NASIC. It was here that I began developing experience as a Full-Stack Software Engineer.
+        <div class="flex flex-col items-center justify-center px-4 mt-2">
+          <h4 class="font-bold">Skills Learned:</h4>
+          <ul class="list-disc">
+            <li>Lead development on a Radar/Satellite Analysis Tool for NASIC using a MEAN stack</li>
+            <li>Angular front-end application development</li>
+            <li>Node.js/Express server-side API development</li>
+            <li>Micro-service architecture using Docker & Kubernetes</li>
+          </ul>
+        </div>
       </div>
       <hr class="bg-primary" />
     </li>
@@ -82,11 +119,17 @@
       <div class="timeline-start mb-10 md:text-end">
         <time class="font-mono italic">April 2022</time>
         <div class="text-lg font-black">Rural Sourcing/Sparq</div>
-        The iPod is a discontinued series of portable media players and multi-purpose mobile devices
-        designed and marketed by Apple Inc. The first version was released on October 23, 2001, about
-        8+1⁄2 months after the Macintosh version of iTunes was released. Apple sold an estimated 450
-        million iPod products as of 2022. Apple discontinued the iPod product line on May 10, 2022. At
-        over 20 years, the iPod brand is the oldest to be discontinued by Apple
+        When my wife became pregnant, I began looking for opportunities for remote work. I was hired by Rural Sourcing (now Sparq) to work on a team developing 
+        micro front-end applications using Angular. We were able to quickly build UI components for customers by droping in these micro front-end blocks. While I was there,
+        I was a software enginerring consultant for a Fortune 500 company, and two start-up companies.
+        <div class="flex flex-col items-center justify-center pl-4 lg:pl-8 pr-4 mt-2">
+          <h4 class="font-bold">Skills Learned:</h4>
+          <ul class="list-disc text-left">
+            <li>Building small, scaleable, and resusable UI components</li>
+            <li>Learned Jamstack application architecture</li>
+            <li>Experience using Azure DevOps</li>
+          </ul>
+        </div>
       </div>
       <hr class="bg-primary" />
     </li>

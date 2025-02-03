@@ -93,7 +93,7 @@
         <div class="flex flex-col items-center justify-center px-4 mt-2">
           <h4 class="font-bold">Skills Learned:</h4>
           <ul class="list-disc">
-            <li>Lead development on a Radar/Satellite Analysis Tool for NASIC using a MEAN stack</li>
+            <li>Lead UI development on a Radar/Satellite Analysis Tool for NASIC using a MEAN stack</li>
             <li>Angular front-end application development</li>
             <li>Node.js/Express server-side API development</li>
             <li>Micro-service architecture using Docker & Kubernetes</li>
@@ -143,11 +143,18 @@
       <div class="timeline-end md:mb-10">
         <time class="font-mono italic">Sept. 2022</time>
         <div class="text-lg font-black">Zachary Piper</div>
-        iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile
-        operating system. The first-generation iPhone was announced by then-Apple CEO Steve Jobs on
-        January 9, 2007. Since then, Apple has annually released new iPhone models and iOS updates. As
-        of November 1, 2018, more than 2.2 billion iPhones had been sold. As of 2022, the iPhone
-        accounts for 15.6% of global smartphone market share
+        A recuiter I had met at Zachary Piper contacted me with an opportunity to lead an application
+        modernization project for the EPA. I didn't want to pass the opportunity up, since it was a chance to lead development, and 
+        improve my software architecture skills. It was a contract-to-hire position with GDIT. 
+        <div class="flex flex-col items-center justify-center px-4 mt-2">
+          <h4 class="font-bold">Skills Learned:</h4>
+          <ul class="list-disc">
+            <li>Sortware Architecture</li>
+            <li>CI/CD development pipeline</li>
+            <li>Cloud deployment using AWS</li>
+            
+          </ul>
+        </div>
       </div>
       <hr class="bg-primary" />
     </li>
@@ -168,16 +175,30 @@
       <div class="timeline-start mb-10 md:text-end">
         <time class="font-mono italic">April 2023</time>
         <div class="text-lg font-black">GDIT</div>
-        The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness
-        tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
-        iOS and other Apple products and services
+        After a year with Zachary Piper, I was hired full-time by GDIT to continue work on 
+        modernizing the EPA's Compendium of Environmental Testing Laboratories.
+        <div class="flex flex-col items-center justify-center pl-4 lg:pl-8 pr-4 mt-2">
+          <h4 class="font-bold">Skills Learned:</h4>
+          <ul class="list-disc text-left">
+            
+          </ul>
+        </div>
       </div>
     </li>
   </ul>
 
-  <h2 class="text-3xl font-semibold">
-    Skills
-  </h2>
-  <div class="divider"></div>
+  <div>
+    <h2 class="text-3xl font-semibold">
+      Skills
+    </h2>
+    <div class="divider"></div>
+    <ul>
+      <li>7+ Years of MEAN stack development expereince</li>
+      <li>Software Containerization with Docker and Kubernetes</li>
+      <li></li>
+    </ul>
+  </div>
+
+  
 
 </div>

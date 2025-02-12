@@ -47,147 +47,102 @@
   </h2>
   <div class="divider"></div>
 
-  <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical px-4">
-    <li>
-      <div class="timeline-middle">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 text-primary">
-          <g clip-path="url(#a)">
-            <path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.25-7.25a.75.75 0 0 0 0-1.5H8.66l2.1-1.95a.75.75 0 1 0-1.02-1.1l-3.5 3.25a.75.75 0 0 0 0 1.1l3.5 3.25a.75.75 0 0 0 1.02-1.1l-2.1-1.95h4.59Z" clip-rule="evenodd" />
-          </g>
-          <defs>
-            <clipPath id="a">
-              <path d="M0 0h20v20H0z" />
-            </clipPath>
-          </defs>
-        </svg>        
-      </div>
-      <div class="timeline-start mb-10 md:text-end">
-        <time class="font-mono italic">June 2012</time>
-        <div class="text-lg font-black">JD Connell Construction</div>
+  <ol class="relative border-s border-primary">                  
+    <li class="ms-4">
+      <div class="absolute w-3 h-3 bg-primary rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 bg-primary"></div>
+      <time class="mb-1 font-mono italic leading-none">June 2012</time>
+      <h3 class="text-lg font-semibold">JD Connell Construction</h3>
+      <p class="text-base font-normal base-content">
         My first job in high school. It payed better than a lot of starter jobs, but it was a lot harder work.
         I worked the summers and saved enough to cover my college semesters.
-
         I learned a lot of professional skills, but also learned that I didn't want to work construction for a living.
-        <div class="flex flex-col items-center justify-center pl-4 lg:pl-8 pr-4 mt-2">
-          <h4 class="font-bold">Skills Learned:</h4>
-          <ul class="list-disc text-left">
-            <li>Leadership: Supervised peers with less experience</li> 
-          </ul>
-        </div>
+      </p>
+      <div class="flex flex-col mt-2">
+        <h4 class="font-bold">Skills Learned:</h4>
+        <ul class="list-disc ml-4">
+          <li>Teamwork: I worked with a large multidisciplinary team</li>
+          <li>Leadership: I supervised peers with less experience</li>
+          <li>Hard Work: We finished projects in difficult conditions</li>
+        </ul>
       </div>
-      <hr class="bg-primary" />
     </li>
-    <li>
-      <hr class="bg-primary" />
-      <div class="timeline-middle">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 text-primary">
-          <path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6.75 9.25a.75.75 0 0 0 0 1.5h4.59l-2.1 1.95a.75.75 0 0 0 1.02 1.1l3.5-3.25a.75.75 0 0 0 0-1.1l-3.5-3.25a.75.75 0 1 0-1.02 1.1l2.1 1.95H6.75Z" clip-rule="evenodd" />
-        </svg>        
-      </div>
-      <div class="timeline-end md:mb-10">
-        <time class="font-mono italic">May 2017</time>
-        <div class="text-lg font-black">Altamira Technologies</div>
-        I interned at Altamira the summer before my Senior year of college. They offered me a full time position after graduation. 
+    <li class="mt-10 ms-4">
+        <div class="absolute w-3 h-3 bg-primary rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 bg-primary"></div>
+        <time class="mb-1 font-mono italic leading-none">May 2017</time>
+        <h3 class="text-lg font-semibold">Altamira Technologies</h3>
+        <p class="ttext-base font-normal base-content">
+          I interned at Altamira the summer before my Senior year of college. They offered me a full time position after graduation. 
         I recieved a Top-Secret Security Clearance (TS/SCI) and worked on 
-        projects for the USAF at NASIC. It was here that I began developing experience as a Full-Stack Software Engineer.
-        <div class="flex flex-col items-center justify-center px-4 mt-2">
+        projects for the USAF at NASIC. It was here that I began developing experience as a Full-Stack Software Engineer. 
+        I lead the UI development of a Radar/Satellite Analysis Tool our team was building using a MEAN stack.
+        </p>
+        <div class="flex flex-col mt-2">
           <h4 class="font-bold">Skills Learned:</h4>
-          <ul class="list-disc">
-            <li>Lead UI development on a Radar/Satellite Analysis Tool for NASIC using a MEAN stack</li>
-            <li>Angular front-end application development</li>
-            <li>Node.js/Express server-side API development</li>
+          <ul class="list-disc ml-4">
+            <li>Leading development on the UI portion of a project</li>
+            <li>Full-Stack development using a MEAN (Mongo, Express, Angular, Node) stack</li>
             <li>Micro-service architecture using Docker & Kubernetes</li>
           </ul>
         </div>
-      </div>
-      <hr class="bg-primary" />
     </li>
-    <li>
-      <hr class="bg-primary" />
-      <div class="timeline-middle">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 text-primary">
-          <g clip-path="url(#a)">
-            <path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.25-7.25a.75.75 0 0 0 0-1.5H8.66l2.1-1.95a.75.75 0 1 0-1.02-1.1l-3.5 3.25a.75.75 0 0 0 0 1.1l3.5 3.25a.75.75 0 0 0 1.02-1.1l-2.1-1.95h4.59Z" clip-rule="evenodd" />
-          </g>
-          <defs>
-            <clipPath id="a">
-              <path d="M0 0h20v20H0z" />
-            </clipPath>
-          </defs>
-        </svg> 
-      </div>
-      <div class="timeline-start mb-10 md:text-end">
-        <time class="font-mono italic">April 2022</time>
-        <div class="text-lg font-black">Rural Sourcing/Sparq</div>
-        When my wife became pregnant, I began looking for opportunities for remote work. I was hired by Rural Sourcing (now Sparq) to work on a team developing 
+    <li class="mt-10 ms-4">
+        <div class="absolute w-3 h-3 bg-primary rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 bg-primary"></div>
+        <time class="mb-1 font-mono italic leading-none">April 2022</time>
+        <h3 class="text-lg font-semibold">Rural Sourcing/Sparq</h3>
+        <p class="ttext-base font-normal base-content">
+          When my wife became pregnant, I began looking for opportunities for remote work. I was hired by Rural Sourcing (now Sparq) to work on a team developing 
         micro front-end applications using Angular. We were able to quickly build UI components for customers by droping in these micro front-end blocks. While I was there,
         I was a software enginerring consultant for a Fortune 500 company, and two start-up companies.
-        <div class="flex flex-col items-center justify-center pl-4 lg:pl-8 pr-4 mt-2">
+        </p>
+        <div class="flex flex-col mt-2">
           <h4 class="font-bold">Skills Learned:</h4>
-          <ul class="list-disc text-left">
-            <li>Building small, scaleable, and resusable UI components</li>
-            <li>Learned Jamstack application architecture</li>
-            <li>Experience using Azure DevOps</li>
+          <ul class="list-disc ml-4">
+            <li>How to build small, scaleable, and resusable UI components</li>
+            <li>Jamstack application architecture</li>
+            <li>Azure DevOps experience</li>
           </ul>
         </div>
-      </div>
-      <hr class="bg-primary" />
     </li>
-    <li>
-      <hr class="bg-primary" />
-      <div class="timeline-middle">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 text-primary">
-          <path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6.75 9.25a.75.75 0 0 0 0 1.5h4.59l-2.1 1.95a.75.75 0 0 0 1.02 1.1l3.5-3.25a.75.75 0 0 0 0-1.1l-3.5-3.25a.75.75 0 1 0-1.02 1.1l2.1 1.95H6.75Z" clip-rule="evenodd" />
-        </svg>
-      </div>
-      <div class="timeline-end md:mb-10">
-        <time class="font-mono italic">Sept. 2022</time>
-        <div class="text-lg font-black">Zachary Piper</div>
+    <li class="mt-10 ms-4">
+      <div class="absolute w-3 h-3 bg-primary rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 bg-primary"></div>
+      <time class="mb-1 font-mono italic leading-none">Sept. 2022</time>
+      <h3 class="text-lg font-semibold">Zachary Piper</h3>
+      <p class="ttext-base font-normal base-content">
         A recuiter I had met at Zachary Piper contacted me with an opportunity to lead an application
         modernization project for the EPA. I didn't want to pass the opportunity up, since it was a chance to lead development, and 
         improve my software architecture skills. It was a contract-to-hire position with GDIT. 
-        <div class="flex flex-col items-center justify-center px-4 mt-2">
-          <h4 class="font-bold">Skills Learned:</h4>
-          <ul class="list-disc">
-            <li>Sortware Architecture</li>
-            <li>CI/CD development pipeline</li>
+      </p>
+      <div class="flex flex-col mt-2">
+        <h4 class="font-bold">Skills Learned:</h4>
+        <ul class="list-disc ml-4">
+          <li>Software Architecture design</li>
+            <li>Setting up a CI/CD development pipeline</li>
             <li>Cloud deployment using AWS</li>
-            
-          </ul>
-        </div>
+        </ul>
       </div>
-      <hr class="bg-primary" />
     </li>
-    <li>
-      <hr class="bg-primary" />
-      <div class="timeline-middle">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 text-primary">
-          <g clip-path="url(#a)">
-            <path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.25-7.25a.75.75 0 0 0 0-1.5H8.66l2.1-1.95a.75.75 0 1 0-1.02-1.1l-3.5 3.25a.75.75 0 0 0 0 1.1l3.5 3.25a.75.75 0 0 0 1.02-1.1l-2.1-1.95h4.59Z" clip-rule="evenodd" />
-          </g>
-          <defs>
-            <clipPath id="a">
-              <path d="M0 0h20v20H0z" />
-            </clipPath>
-          </defs>
-        </svg> 
-      </div>
-      <div class="timeline-start mb-10 md:text-end">
-        <time class="font-mono italic">April 2023</time>
-        <div class="text-lg font-black">GDIT</div>
+    <li class="mt-10 ms-4">
+      <div class="absolute w-3 h-3 bg-primary rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 bg-primary"></div>
+      <time class="mb-1 font-mono italic leading-none">April 2023</time>
+      <h3 class="text-lg font-semibold">GDIT</h3>
+      <p class="ttext-base font-normal base-content">
         After a year with Zachary Piper, I was hired full-time by GDIT to continue work on 
         modernizing the EPA's Compendium of Environmental Testing Laboratories.
-        <div class="flex flex-col items-center justify-center pl-4 lg:pl-8 pr-4 mt-2">
-          <h4 class="font-bold">Skills Learned:</h4>
-          <ul class="list-disc text-left">
-            
-          </ul>
-        </div>
+      </p>
+      <div class="flex flex-col mt-2">
+        <h4 class="font-bold">Skills Learned:</h4>
+        <ul class="list-disc ml-4">
+          <li>Software development leadership</li>
+          <li>Database architecture and design</li>
+          <li></li>
+        </ul>
       </div>
     </li>
-  </ul>
+  </ol>
 
-  <div>
+
+
+  <div class="mt-8">
     <h2 class="text-3xl font-semibold">
       Skills
     </h2>
@@ -197,6 +152,7 @@
       <li>Software Containerization with Docker and Kubernetes</li>
       <li></li>
     </ul>
+
   </div>
 
   

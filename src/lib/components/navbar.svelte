@@ -8,7 +8,7 @@
   ]
 </script>
 
-<div class="navbar bg-primary rounded-full text-primary-content">
+<div class="navbar bg-primary rounded-full text-primary-content px-6">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">

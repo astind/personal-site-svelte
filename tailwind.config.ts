@@ -1,6 +1,7 @@
 import typography from '@tailwindcss/typography';
 import daisyui from 'daisyui'
 import type { Config } from 'tailwindcss';
+//import themes from 'daisyui/src/theming/themes';
 
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -13,7 +14,15 @@ export default {
 		daisyui
 	],
 	daisyui: {
-		themes: ['retro', 'dracula'],
+		themes: ['dim', 'retro',
+			// {
+			// 	retro: {
+			// 		...themes['retro'],
+			// 		primary: "#a4cbb4",
+			// 		secondary: "#ef9995"
+			// 	}
+			// }
+		],
 	},
 	darkMode: 'selector'
 } satisfies Config;

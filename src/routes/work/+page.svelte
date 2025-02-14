@@ -133,7 +133,6 @@
           <ul class="list-disc ml-4">
             <li>Development team leadership</li>
             <li>Database architecture and design</li>
-            <li></li>
           </ul>
         </div>
       </li>

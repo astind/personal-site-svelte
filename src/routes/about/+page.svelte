@@ -19,9 +19,9 @@
         <div class="px-4">
           <h1 class="text-5xl font-bold">Dillon</h1>
           <p class="py-6">
-            I'm a software engineer with 8 years of expereince. Most of my experience is in building full-stack applications using a MEAN stack.
+            I'm a software engineer with 8 years of experience. Most of my experience is in building full-stack applications using a MEAN stack.
             But, I am also enjoying building with Jamstack frameworks such as SvelteKit. 
-            I love spending my free time with my family. My hobbies include: basketball, board games, and paddle boading.
+            I love spending my free time with my family. My hobbies include: basketball, board games, and paddle boarding.
           </p>
         </div>
       </div>
@@ -45,7 +45,7 @@
       <div class="hero-content flex-col lg:flex-row">
         <img src={v} alt="My daughter Virginia" class="rounded-lg shadow-2xl"/>
         <div class="px-4">
-          <h1 class="text-5xl font-bold">Virigina</h1>
+          <h1 class="text-5xl font-bold">Virginia</h1>
           <p class="py-6">
             Our toddler who always keeps up on our toes. 
             She loves basketballs, cars, and Bluey. 

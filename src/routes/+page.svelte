@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Header from '$lib/components/header.svelte';
 	import dv from '$lib/assets/img/dv.webp';
 	import dj1 from '$lib/assets/img/dj1.webp';
@@ -9,12 +9,12 @@
 	const title = 'Husband, Father, and Software Engineer';
 	const description = `
   I'm Dillon, a software engineer based out of Dayton Ohio.
-  I currently work at GDIT desigining software for the EPA.
+  I currently work at GDIT building software for the EPA.
   I'm a husband to an amazing wife, and father to a beautiful daughter.
   I enjoy using technology to create connecting experiences.
   `;
 
-	const blogs = [1, 2, 3];
+	const blogs: any[] = [];
 </script>
 
 <Header {title} {description}></Header>

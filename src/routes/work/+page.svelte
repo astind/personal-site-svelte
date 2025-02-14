@@ -71,7 +71,7 @@
           <h3 class="text-lg font-semibold">Altamira Technologies</h3>
           <p class="ttext-base font-normal base-content">
             I interned at Altamira the summer before my Senior year of college. They offered me a full time position after graduation. 
-          I recieved a Top-Secret Security Clearance (TS/SCI) and worked on 
+          I received a Top-Secret Security Clearance (TS/SCI) and worked on 
           projects for the USAF at NASIC. It was here that I began developing experience as a Full-Stack Software Engineer. 
           I lead the UI development of a Radar/Satellite Analysis Tool our team was building using a MEAN stack.
           </p>
@@ -90,13 +90,13 @@
           <h3 class="text-lg font-semibold">Rural Sourcing/Sparq</h3>
           <p class="ttext-base font-normal base-content">
             When my wife became pregnant, I began looking for opportunities for remote work. I was hired by Rural Sourcing (now Sparq) to work on a team developing 
-          micro front-end applications using Angular. We were able to quickly build UI components for customers by droping in these micro front-end blocks. While I was there,
-          I was a software enginerring consultant for a Fortune 500 company, and two start-up companies.
+          micro front-end applications using Angular. We were able to quickly build UI components for customers by building them with micro front-end blocks. While I was there,
+          I was a software engineering consultant for a Fortune 500 company, and two start-up companies.
           </p>
           <div class="flex flex-col mt-2">
             <h4 class="font-bold">Skills Learned:</h4>
             <ul class="list-disc ml-4">
-              <li>How to build small, scaleable, and resusable UI components</li>
+              <li>How to build small, scalable, and reusable UI components</li>
               <li>Jamstack application architecture</li>
               <li>Azure DevOps experience</li>
             </ul>
@@ -107,7 +107,7 @@
         <time class="mb-1 font-mono italic leading-none">Sept. 2022</time>
         <h3 class="text-lg font-semibold">Zachary Piper</h3>
         <p class="ttext-base font-normal base-content">
-          A recuiter I had met at Zachary Piper contacted me with an opportunity to lead an application
+          A recruiter I had met at Zachary Piper contacted me with an opportunity to lead an application
           modernization project for the EPA. I didn't want to pass the opportunity up, since it was a chance to lead development, and 
           improve my software architecture skills. It was a contract-to-hire position with GDIT. 
         </p>
@@ -131,7 +131,7 @@
         <div class="flex flex-col mt-2">
           <h4 class="font-bold">Skills Learned:</h4>
           <ul class="list-disc ml-4">
-            <li>Software development leadership</li>
+            <li>Development team leadership</li>
             <li>Database architecture and design</li>
             <li></li>
           </ul>
@@ -146,7 +146,7 @@
   <div class="divider"></div>
   <div class="px-4">
     <ul class="text-lg font-bold list-disc list-inside space-y-2">
-      <li>7+ Years of MEAN stack development expereince</li>
+      <li>7+ Years of MEAN stack development experience</li>
       <li>Docker and Kubernetes</li>
       <li>SQL(PostgreSQL, Oracle)</li>
       <li>NoSQL(MongoDB, Elasticsearch)</li>

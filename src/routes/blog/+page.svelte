@@ -1,7 +1,14 @@
-<script>
+<script lang="ts">
+  import Header from "$lib/components/header.svelte";
+  
   let { data } = $props();
+  
+  const title = "Blog";
+  const description = "No Blog posts yet! Check back later";
 </script>
 
-<div>
-  <h1>Blog</h1>
+<div class="min-h-dvh">
+  <Header {title} {description}></Header>
+
+  <div></div>
 </div>

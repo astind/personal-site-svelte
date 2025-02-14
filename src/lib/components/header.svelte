@@ -7,5 +7,5 @@
 
 <div class="prose">
   <h1>{title}</h1>
-  <p>{description}</p>
+  <p class="text-lg font-semibold">{description}</p>
 </div>

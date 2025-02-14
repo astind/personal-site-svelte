@@ -59,7 +59,7 @@
 			<div class="card bg-base-200 w-full">
 				<div class="card-body">
 					<h2 class="card-title">No Blogs Yet!</h2>
-					<p>Check back in the future for blogs</p>
+					<p>Check back in the future for updates</p>
 				</div>
 			</div>
 				

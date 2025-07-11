@@ -7,7 +7,7 @@
 
 <div class="flex justify-between">
   <Header {title}></Header>
-  <a class="btn btn-neutral" href="https://drive.google.com/file/d/1uI8Kc813-Bz7-40appoqka9vJavRVEBy/view">Download</a>
+  <a class="btn btn-neutral" href="https://drive.google.com/file/d/10e-RSDiiGUnjfhUnjLVz_H7FDJkH79Hs/view">Download</a>
 </div>
 
 <div class="divider mt-0"></div>
